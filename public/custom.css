@@ -1,11 +1,41 @@
-
 * {
-      margin: 0;
-      padding: 0;
+  margin: 1;
+  padding: 1;
 }
-h1{
-      display: flex;
-      justify-content: center;
-      color: aqua;
-      background: #000;
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #06623e,
+    #056341,
+    #056343,
+    #056446,
+    #056448,
+    #045e47,
+    #055846,
+    #085244,
+    #0e453d,
+    #133834,
+    #172b2a,
+    #181f1f
+  );
+  height: 100vh;
 }
+
+.header-main{
+      margin-top: 0.5%;
+      background-color: #C0C0C0;
+      border: 0.1rem solid #2F4F4F;
+      text-shadow: 1rem 1rem 1rem 1rem;
+      border-radius: 1rem 1rem 0rem 0rem;
+      box-shadow: #C0C0C0;
+}
+.nav-item a{
+      color: #045e47 !important;
+      font-weight: 600 ;
+
+}
+.mobile-menu{
+      background-color: #2F4F4F !important;
+}
+
