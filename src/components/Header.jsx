@@ -2,85 +2,72 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div className="header-main fixed-top">
-        <nav className="navbar navbar-expand-lg navbar-dark p-3" id="headerNav">
-          <div className="container-fluid">
-            <a className="nav-link mx-3 h4 d-block d-lg-none" href="#">
-              <img src="../images/logo.jpg" height={50} />
-            </a>
-            <button
-              className="navbar-toggler btn btn-success bg-dark"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
+      <nav
+        className="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
+        id="ftco-navbar"
+      >
+        <div className="container">
+          <a className="navbar-brand" href="">
+            Aaqib
+          </a>
+          <button
+            className="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+            type="button"
+            data-toggle="collapse"
+            data-target="#ftco-nav"
+            aria-controls="ftco-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="oi oi-menu"></span> Menu
+          </button>
 
-            <div className=" collapse navbar-collapse" id="navbarNavDropdown">
-              <ul className="navbar-nav mx-auto ">
-                <li className="nav-item">
-                  <a className="nav-link mx-3" aria-current="page" href="#">
-                    <button
-                      type="button"
-                      class="btn btn-outline-success btn-rounded"
-                      data-mdb-ripple-color="dark"
-                    >
-                      Home
-                    </button>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link mx-3" aria-current="page" href="#">
-                    <button
-                      type="button"
-                      class="btn btn-outline-success btn-rounded "
-                      data-mdb-ripple-color="dark"
-                    >
-                      Home
-                    </button>
-                  </a>
-                </li>
-                <li className="nav-item d-none d-lg-block">
-                  <a className="nav-link mx-3 h4" href="#">
-                    <img src="../images/logo.jpg" height={50} />
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link mx-3" aria-current="page" href="#">
-                    <button
-                      type="button"
-                      class="btn btn-outline-success btn-rounded "
-                      data-mdb-ripple-color="dark"
-                    >
-                      Home
-                    </button>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link mx-3" aria-current="page" href="#">
-                    <button
-                      type="button"
-                      class="btn btn-outline-success btn-rounded "
-                      data-mdb-ripple-color="dark"
-                    >
-                      Home
-                    </button>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <ul class="social-network social-circle">
-          <li><a href="#" className="icoskpye" ><i className="fa fa-skype"></i></a></li>
-          <li><a href="#" className="icoFacebook" ><i className="fa fa-facebook"></i></a></li>
-          <li><a href="#" className="icoLinkedin"><i className="fa fa-linkedin"></i></a></li>
-        </ul>
+          <div className="collapse navbar-collapse" id="ftco-nav">
+            <ul className="navbar-nav nav ml-auto">
+              <li className="nav-item">
+                <a href="#home-section" className="nav-link">
+                  <span>Home</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#about-section" className="nav-link">
+                  <span>About</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#resume-section" className="nav-link">
+                  <span>Resume</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#services-section" className="nav-link">
+                  <span>Services</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#skills-section" className="nav-link">
+                  <span>Skills</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#projects-section" className="nav-link">
+                  <span>Projects</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#blog-section" className="nav-link">
+                  <span>My Blog</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#contact-section" className="nav-link">
+                  <span>Contact</span>
+                </a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </>
   );
 };
